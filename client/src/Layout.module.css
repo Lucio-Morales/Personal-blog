@@ -1,0 +1,32 @@
+.mainContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   padding: 20px;
+   
+}
+
+.navBar {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 6px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.navBarUl {
+    display: flex;
+    padding: 0;
+    gap: 40px;
+    list-style: none;
+}
+
+.navBarLink {
+    color: black;
+    text-decoration: none;
+}
+
+.navBarLinkActive {
+    background-color: tomato;
+}
